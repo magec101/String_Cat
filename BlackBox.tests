@@ -1,0 +1,23 @@
+[
+    {
+        "1": {
+            "input": "CON CAT",
+            "output": "CONCAT",
+            "type": "CLI"
+        }
+    },
+    {
+        "2": {
+            "input": "MAKE\n-OVER",
+            "output": "MAKE-OVER",
+            "type": "STDIN"
+        }
+    },
+    {
+        "3": {
+            "input": "MA\nIT",
+            "output": "MAIT",
+            "type": "STDIN"
+        }
+    }
+]

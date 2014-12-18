@@ -1,0 +1,64 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "CON CAT",
+                    "output": "CONCAT",
+                    "type": "CLI"
+                },
+                "score": "5",
+                "visible": "all"
+            },
+            {
+                "checkName": "2",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "MAKE\n-OVER",
+                    "output": "MAKE-OVER",
+                    "type": "STDIN"
+                },
+                "score": "",
+                "visible": "all"
+            },
+            {
+                "checkName": "3",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "MA\nIT",
+                    "output": "MAIT",
+                    "type": "STDIN"
+                },
+                "score": "5",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "undefined",
+        "system": "100"
+    },
+    "lastSaved": "20141218 112516"
+}
